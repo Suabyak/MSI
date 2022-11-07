@@ -15,6 +15,9 @@ class Rect(Component):
 
     def getSize(self):
         return self.__size
+    def setSize(self, size):
+        self.__size = size
+        self.__surface = Surface(self.__size)
 
     def render(self):
         self.__surface.fill(self.__color)
