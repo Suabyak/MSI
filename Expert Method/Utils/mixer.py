@@ -6,10 +6,11 @@ class Mixer:
     __tracks = dict()
 
     def __init__(self):
-        for path in listdir("data"):
+        for path in listdir("Expert Method\\data"):
             if path not in Mixer.__tracks.keys() and ".mp3" in path:
                 path = path.replace(".mp3", "")
-                Mixer.__tracks[path] = mixer.Sound(f"data\\{path}.mp3")
+                Mixer.__tracks[path] = mixer.Sound(
+                    f"Expert Method\\data\\{path}.mp3")
 
     def playSound(self, game, event):
         loops = -1

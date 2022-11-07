@@ -7,9 +7,10 @@ from Renderer.Objects.Components.animationSequence import AnimationSequence
 from log import Log
 from os import listdir, system
 import traceback
-from Utils.mixer import Mixer
-from Scenes.MainMenu.mainMenu import MainMenu
-from Scenes.Game.game import Game
+# from Utils.mixer import Mixer
+# from Scenes.MainMenu.mainMenu import MainMenu
+# from Scenes.Game.game import Game
+from Scenes.SelectTags.selectTags import SelectTags
 
 
 class Main:
@@ -22,14 +23,14 @@ class Main:
 
         self.__eventOperator = EventOperator(self)
         self.__renderer = Renderer(self.__SCREEN_SIZE)
-        self.__mixer = Mixer()
+        # self.__mixer = Mixer()
         pygame.display.set_caption(self.__TITLE)
         self.__scenes = self.loadScenes()
         self.__activeScene = None
         self.__running = True
         self.__keysDown = dict()
 
-        self.setActiveScene("MainMenu")
+        self.setActiveScene("SelectTags")
         self.__gameLoop()
 
     def __gameLoop(self):
@@ -45,8 +46,9 @@ class Main:
     def loadScenes(self):
         scenes = dict()
 
-        scenes["MainMenu"] = MainMenu(self)
-        scenes["Game"] = Game(self)
+        # scenes["MainMenu"] = MainMenu(self)
+        # scenes["Game"] = Game(self)
+        scenes["SelectTags"] = SelectTags(self)
 
         return scenes
 
@@ -151,9 +153,4 @@ class Main:
 
 
 if __name__ == "__main__":
-    try:
-        Main()
-    except Exception as e:
-        Log.executionLog(e)
-        Log.executionLog(traceback.format_exc())
-        system("Logs\\execution_log.txt")
+    Main()

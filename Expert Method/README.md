@@ -1,8 +1,8 @@
-# Programowanie i Projektowanie obiektowe
+# Metody Sztucznej Inteligencji
 
-## Strażak Bam-Bam
+## MEtoda Ekspercka
 
-Symulator strażaka Bam-Bam'a.
+Aplikacja Metody Eksperckiej do wybrania gry.
 
 Do działania należy pobrać i zainstalować bibliotekę pygame:
 
@@ -11,6 +11,4 @@ wpisać w konsoli
 
 Twórcy:
 - Arkadiusz Torba
-- Jakub Wójcik
-- Kacper Sikorski
 - Maciej Domiński
