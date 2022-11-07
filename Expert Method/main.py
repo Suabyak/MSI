@@ -6,17 +6,19 @@ from Renderer.Objects.Components.animation import Animation
 from Renderer.Objects.Components.animationSequence import AnimationSequence
 from log import Log
 from os import listdir, system
+from random import randint
 import traceback
 # from Utils.mixer import Mixer
 # from Scenes.MainMenu.mainMenu import MainMenu
 # from Scenes.Game.game import Game
 from Scenes.SelectTags.selectTags import SelectTags
+from Scenes.Result.result import Result
 
 
 class Main:
     def __init__(self):
         pygame.init()  # Inicjalizacja pygame
-        self.__TITLE = "Strażak Bam-Bam"
+        self.__TITLE = "Metoda Ekspercka"
         self.__SCREEN_SIZE = (1200, 675)
         Log.executionLog(f"\n{'-'*50}")
         Log.executionLog(f"{self.__TITLE} started.")
@@ -29,8 +31,11 @@ class Main:
         self.__activeScene = None
         self.__running = True
         self.__keysDown = dict()
+        self.__tags = self.__readTags()
+        self.__games = self.__readGames()
 
         self.setActiveScene("SelectTags")
+        self.selectQuestion()
         self.__gameLoop()
 
     def __gameLoop(self):
@@ -49,6 +54,7 @@ class Main:
         # scenes["MainMenu"] = MainMenu(self)
         # scenes["Game"] = Game(self)
         scenes["SelectTags"] = SelectTags(self)
+        scenes["Result"] = Result(self)
 
         return scenes
 
@@ -151,6 +157,54 @@ class Main:
             Object.get("WaterCannon").calcRotation(mouseX-self.__SCREEN_SIZE[0]/2,
                                                    mouseY-self.__SCREEN_SIZE[1]/2)
 
+    def __readTags(self):
+        file = open("Expert Method\\tags.csv")
+        file = file.read().split("\n")
+        lines = list()
+        for line in file:
+            lines.append(line.split(";"))
+        print(f"Wczytano {len(lines)} tagow")
+        return lines
+
+    def __readGames(self):
+        file = open("Expert Method\\games.csv")
+        file = file.read().split("\n")
+        lines = list()
+        for line in file:
+            lines.append(line.split(";"))
+        print(f"Wczytano {len(lines)} gier")
+        return lines
+    
+    def selectQuestion(self):
+        if len(self.__games) == 1:
+            self.setActiveScene("Result")
+            self.getActiveScene().getObject("Result Label").setText(self.__games[0][0])
+            return
+        if len(self.__tags) == 0:
+            print(self.__games)
+        tag = self.__tags[randint(0, len(self.__tags)-1)]
+        self.__tag = tag
+        self.getActiveScene().getObject("Question").setText(tag[2])
+        self.getActiveScene().getObject("Tag1").setTag(tag[0])
+        self.getActiveScene().getObject("Tag2").setTag(tag[1])
+
+    def removeTag1(self, event):
+        self.removeTag(self.getActiveScene().getObject("Tag2").tag)
+        self.selectQuestion()
+
+    def removeTag2(self, event):
+        self.removeTag(self.getActiveScene().getObject("Tag1").tag)
+        self.selectQuestion()
+
+    def removeTag(self, tag):
+        self.__tags.remove(self.__tag)
+        deleted = 0
+        for i in range(len(self.__games)):
+            i = len(self.__games) + deleted - 1 - i
+            game = self.__games[i]
+            if tag in game:
+                self.__games.pop(i)
+                deleted += 1
 
 if __name__ == "__main__":
     Main()

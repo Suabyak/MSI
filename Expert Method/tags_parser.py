@@ -1,4 +1,4 @@
-file = open("Expert Method/tags.csv", "r").read()
+file = open("Expert Method/tags.csv", "r", encoding="UTF8").read()
 
 file = file.split("\n")
 content = list()
@@ -8,7 +8,7 @@ for line in file:
 possibilities = list()
 for i in range(2**len(content)):
     tags = str(bin(i))[2:]
-    tags = (6-len(tags)) * "0" + tags
+    tags = (len(content)-len(tags)) * "0" + tags
 
     possibilities.append(tags)
 

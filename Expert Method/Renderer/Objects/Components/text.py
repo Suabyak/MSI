@@ -22,7 +22,7 @@ class Text(Component):
             korzystać z tej samej czcionki,
             zamiast tworzyć kilka obiektów czcionki."""
             Text.__font[self.__size] = Font.Font(
-                "Data\\Poppins-Light.ttf", size)
+                "Expert Method\\Data\\Poppins-Light.ttf", size)
 
     def render(self, text=None, color=None):
         if not color:

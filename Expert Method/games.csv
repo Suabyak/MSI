@@ -1,64 +1,32 @@
-<nazwa>;otwarty swiat;jazda pojazdami;strzelanie;elementy fantasy;nauka;gry z dobrym sprzętem komputerowym
-<nazwa>;otwarty swiat;jazda pojazdami;strzelanie;elementy fantasy;nauka;gry ze słabym sprzętem komputerowym
-<nazwa>;otwarty swiat;jazda pojazdami;strzelanie;elementy fantasy;bez nauki;gry z dobrym sprzętem komputerowym
-<nazwa>;otwarty swiat;jazda pojazdami;strzelanie;elementy fantasy;bez nauki;gry ze słabym sprzętem komputerowym
-<nazwa>;otwarty swiat;jazda pojazdami;strzelanie;brak elementów fantasy;nauka;gry z dobrym sprzętem komputerowym
-<nazwa>;otwarty swiat;jazda pojazdami;strzelanie;brak elementów fantasy;nauka;gry ze słabym sprzętem komputerowym
-<nazwa>;otwarty swiat;jazda pojazdami;strzelanie;brak elementów fantasy;bez nauki;gry z dobrym sprzętem komputerowym
-<nazwa>;otwarty swiat;jazda pojazdami;strzelanie;brak elementów fantasy;bez nauki;gry ze słabym sprzętem komputerowym
-<nazwa>;otwarty swiat;jazda pojazdami;bez strzelania;elementy fantasy;nauka;gry z dobrym sprzętem komputerowym
-<nazwa>;otwarty swiat;jazda pojazdami;bez strzelania;elementy fantasy;nauka;gry ze słabym sprzętem komputerowym
-<nazwa>;otwarty swiat;jazda pojazdami;bez strzelania;elementy fantasy;bez nauki;gry z dobrym sprzętem komputerowym
-<nazwa>;otwarty swiat;jazda pojazdami;bez strzelania;elementy fantasy;bez nauki;gry ze słabym sprzętem komputerowym
-<nazwa>;otwarty swiat;jazda pojazdami;bez strzelania;brak elementów fantasy;nauka;gry z dobrym sprzętem komputerowym
-<nazwa>;otwarty swiat;jazda pojazdami;bez strzelania;brak elementów fantasy;nauka;gry ze słabym sprzętem komputerowym
-<nazwa>;otwarty swiat;jazda pojazdami;bez strzelania;brak elementów fantasy;bez nauki;gry z dobrym sprzętem komputerowym
-<nazwa>;otwarty swiat;jazda pojazdami;bez strzelania;brak elementów fantasy;bez nauki;gry ze słabym sprzętem komputerowym
-<nazwa>;otwarty swiat;brak jazdy pojazdami;strzelanie;elementy fantasy;nauka;gry z dobrym sprzętem komputerowym
-<nazwa>;otwarty swiat;brak jazdy pojazdami;strzelanie;elementy fantasy;nauka;gry ze słabym sprzętem komputerowym
-<nazwa>;otwarty swiat;brak jazdy pojazdami;strzelanie;elementy fantasy;bez nauki;gry z dobrym sprzętem komputerowym
-<nazwa>;otwarty swiat;brak jazdy pojazdami;strzelanie;elementy fantasy;bez nauki;gry ze słabym sprzętem komputerowym
-<nazwa>;otwarty swiat;brak jazdy pojazdami;strzelanie;brak elementów fantasy;nauka;gry z dobrym sprzętem komputerowym
-<nazwa>;otwarty swiat;brak jazdy pojazdami;strzelanie;brak elementów fantasy;nauka;gry ze słabym sprzętem komputerowym
-<nazwa>;otwarty swiat;brak jazdy pojazdami;strzelanie;brak elementów fantasy;bez nauki;gry z dobrym sprzętem komputerowym
-<nazwa>;otwarty swiat;brak jazdy pojazdami;strzelanie;brak elementów fantasy;bez nauki;gry ze słabym sprzętem komputerowym
-<nazwa>;otwarty swiat;brak jazdy pojazdami;bez strzelania;elementy fantasy;nauka;gry z dobrym sprzętem komputerowym
-<nazwa>;otwarty swiat;brak jazdy pojazdami;bez strzelania;elementy fantasy;nauka;gry ze słabym sprzętem komputerowym
-<nazwa>;otwarty swiat;brak jazdy pojazdami;bez strzelania;elementy fantasy;bez nauki;gry z dobrym sprzętem komputerowym
-<nazwa>;otwarty swiat;brak jazdy pojazdami;bez strzelania;elementy fantasy;bez nauki;gry ze słabym sprzętem komputerowym
-<nazwa>;otwarty swiat;brak jazdy pojazdami;bez strzelania;brak elementów fantasy;nauka;gry z dobrym sprzętem komputerowym
-<nazwa>;otwarty swiat;brak jazdy pojazdami;bez strzelania;brak elementów fantasy;nauka;gry ze słabym sprzętem komputerowym
-<nazwa>;otwarty swiat;brak jazdy pojazdami;bez strzelania;brak elementów fantasy;bez nauki;gry z dobrym sprzętem komputerowym
-<nazwa>;otwarty swiat;brak jazdy pojazdami;bez strzelania;brak elementów fantasy;bez nauki;gry ze słabym sprzętem komputerowym
-<nazwa>;zamkniety swiat;jazda pojazdami;strzelanie;elementy fantasy;nauka;gry z dobrym sprzętem komputerowym
-<nazwa>;zamkniety swiat;jazda pojazdami;strzelanie;elementy fantasy;nauka;gry ze słabym sprzętem komputerowym
-<nazwa>;zamkniety swiat;jazda pojazdami;strzelanie;elementy fantasy;bez nauki;gry z dobrym sprzętem komputerowym
-<nazwa>;zamkniety swiat;jazda pojazdami;strzelanie;elementy fantasy;bez nauki;gry ze słabym sprzętem komputerowym
-<nazwa>;zamkniety swiat;jazda pojazdami;strzelanie;brak elementów fantasy;nauka;gry z dobrym sprzętem komputerowym
-<nazwa>;zamkniety swiat;jazda pojazdami;strzelanie;brak elementów fantasy;nauka;gry ze słabym sprzętem komputerowym
-<nazwa>;zamkniety swiat;jazda pojazdami;strzelanie;brak elementów fantasy;bez nauki;gry z dobrym sprzętem komputerowym
-<nazwa>;zamkniety swiat;jazda pojazdami;strzelanie;brak elementów fantasy;bez nauki;gry ze słabym sprzętem komputerowym
-<nazwa>;zamkniety swiat;jazda pojazdami;bez strzelania;elementy fantasy;nauka;gry z dobrym sprzętem komputerowym
-<nazwa>;zamkniety swiat;jazda pojazdami;bez strzelania;elementy fantasy;nauka;gry ze słabym sprzętem komputerowym
-<nazwa>;zamkniety swiat;jazda pojazdami;bez strzelania;elementy fantasy;bez nauki;gry z dobrym sprzętem komputerowym
-<nazwa>;zamkniety swiat;jazda pojazdami;bez strzelania;elementy fantasy;bez nauki;gry ze słabym sprzętem komputerowym
-<nazwa>;zamkniety swiat;jazda pojazdami;bez strzelania;brak elementów fantasy;nauka;gry z dobrym sprzętem komputerowym
-<nazwa>;zamkniety swiat;jazda pojazdami;bez strzelania;brak elementów fantasy;nauka;gry ze słabym sprzętem komputerowym
-<nazwa>;zamkniety swiat;jazda pojazdami;bez strzelania;brak elementów fantasy;bez nauki;gry z dobrym sprzętem komputerowym
-<nazwa>;zamkniety swiat;jazda pojazdami;bez strzelania;brak elementów fantasy;bez nauki;gry ze słabym sprzętem komputerowym
-<nazwa>;zamkniety swiat;brak jazdy pojazdami;strzelanie;elementy fantasy;nauka;gry z dobrym sprzętem komputerowym
-<nazwa>;zamkniety swiat;brak jazdy pojazdami;strzelanie;elementy fantasy;nauka;gry ze słabym sprzętem komputerowym
-<nazwa>;zamkniety swiat;brak jazdy pojazdami;strzelanie;elementy fantasy;bez nauki;gry z dobrym sprzętem komputerowym
-<nazwa>;zamkniety swiat;brak jazdy pojazdami;strzelanie;elementy fantasy;bez nauki;gry ze słabym sprzętem komputerowym
-<nazwa>;zamkniety swiat;brak jazdy pojazdami;strzelanie;brak elementów fantasy;nauka;gry z dobrym sprzętem komputerowym
-<nazwa>;zamkniety swiat;brak jazdy pojazdami;strzelanie;brak elementów fantasy;nauka;gry ze słabym sprzętem komputerowym
-<nazwa>;zamkniety swiat;brak jazdy pojazdami;strzelanie;brak elementów fantasy;bez nauki;gry z dobrym sprzętem komputerowym
-<nazwa>;zamkniety swiat;brak jazdy pojazdami;strzelanie;brak elementów fantasy;bez nauki;gry ze słabym sprzętem komputerowym
-<nazwa>;zamkniety swiat;brak jazdy pojazdami;bez strzelania;elementy fantasy;nauka;gry z dobrym sprzętem komputerowym
-<nazwa>;zamkniety swiat;brak jazdy pojazdami;bez strzelania;elementy fantasy;nauka;gry ze słabym sprzętem komputerowym
-<nazwa>;zamkniety swiat;brak jazdy pojazdami;bez strzelania;elementy fantasy;bez nauki;gry z dobrym sprzętem komputerowym
-<nazwa>;zamkniety swiat;brak jazdy pojazdami;bez strzelania;elementy fantasy;bez nauki;gry ze słabym sprzętem komputerowym
-<nazwa>;zamkniety swiat;brak jazdy pojazdami;bez strzelania;brak elementów fantasy;nauka;gry z dobrym sprzętem komputerowym
-<nazwa>;zamkniety swiat;brak jazdy pojazdami;bez strzelania;brak elementów fantasy;nauka;gry ze słabym sprzętem komputerowym
-<nazwa>;zamkniety swiat;brak jazdy pojazdami;bez strzelania;brak elementów fantasy;bez nauki;gry z dobrym sprzętem komputerowym
-<nazwa>;zamkniety swiat;brak jazdy pojazdami;bez strzelania;brak elementów fantasy;bez nauki;gry ze słabym sprzętem komputerowym
+Cyberpunk 2077;otwarty swiat;jazda pojazdami;bron palna;nauka;gry z dobrym sprzetem komputerowym
+Grand Theft Auto: San Andreas;otwarty swiat;jazda pojazdami;bron palna;nauka; gry ze slabym sprzetem komputerowym
+Far Cry 6;otwarty swiat;jazda pojazdami;bron palna;bez nauki;gry z dobrym sprzetem komputerowym
+Far Cry 3;otwarty swiat;jazda pojazdami;bron palna;bez nauki; gry ze slabym sprzetem komputerowym
+FORZA Horizon 5;otwarty swiat;jazda pojazdami;bez strzelania;nauka;gry z dobrym sprzetem komputerowym
+Need for Speed: Most Wanted;otwarty swiat;jazda pojazdami;bez strzelania;nauka; gry ze slabym sprzetem komputerowym
+Farming Simulator 2022;otwarty swiat;jazda pojazdami;bez strzelania;bez nauki;gry z dobrym sprzetem komputerowym
+Farming Simulator 2013;otwarty swiat;jazda pojazdami;bez strzelania;bez nauki; gry ze slabym sprzetem komputerowym
+Destiny 2;otwarty swiat;brak jazdy pojazdami;bron palna;nauka;gry z dobrym sprzetem komputerowym
+Destiny;otwarty swiat;brak jazdy pojazdami;bron palna;nauka; gry ze slabym sprzetem komputerowym
+Lost Ark;otwarty swiat;brak jazdy pojazdami;bron palna;bez nauki;gry z dobrym sprzetem komputerowym
+Diablo;otwarty swiat;brak jazdy pojazdami;bron palna;bez nauki; gry ze slabym sprzetem komputerowym
+Path of Exile;otwarty swiat;brak jazdy pojazdami;bez strzelania;nauka;gry z dobrym sprzetem komputerowym
+Metin2;otwarty swiat;brak jazdy pojazdami;bez strzelania;nauka; gry ze slabym sprzetem komputerowym
+Sims 4;otwarty swiat;brak jazdy pojazdami;bez strzelania;bez nauki;gry z dobrym sprzetem komputerowym
+Sims 1;otwarty swiat;brak jazdy pojazdami;bez strzelania;bez nauki; gry ze slabym sprzetem komputerowym
+Battlefield 2042;zamkniety swiat;jazda pojazdami;bron palna;nauka;gry z dobrym sprzetem komputerowym
+Battlefield 1942;zamkniety swiat;jazda pojazdami;bron palna;nauka; gry ze slabym sprzetem komputerowym
+Call of Duty : Modern Warfare II 2022;zamkniety swiat;jazda pojazdami;bron palna;bez nauki;gry z dobrym sprzetem komputerowym
+Call of Duty 2;zamkniety swiat;jazda pojazdami;bron palna;bez nauki; gry ze slabym sprzetem komputerowym
+F1 2023;zamkniety swiat;jazda pojazdami;bez strzelania;nauka;gry z dobrym sprzetem komputerowym
+GRID 1;zamkniety swiat;jazda pojazdami;bez strzelania;nauka; gry ze slabym sprzetem komputerowym
+GRID 2;zamkniety swiat;jazda pojazdami;bez strzelania;bez nauki;gry z dobrym sprzetem komputerowym
+FlatOut;zamkniety swiat;jazda pojazdami;bez strzelania;bez nauki; gry ze slabym sprzetem komputerowym
+Medal of Honor;zamkniety swiat;brak jazdy pojazdami;bron palna;nauka;gry z dobrym sprzetem komputerowym
+S.K.I.L.L;zamkniety swiat;brak jazdy pojazdami;bron palna;nauka; gry ze slabym sprzetem komputerowym
+Worms: Clan Wars;zamkniety swiat;brak jazdy pojazdami;bron palna;bez nauki;gry z dobrym sprzetem komputerowym
+WORMS Armageddon;zamkniety swiat;brak jazdy pojazdami;bron palna;bez nauki; gry ze slabym sprzetem komputerowym
+Phasmophobia;zamkniety swiat;brak jazdy pojazdami;bez strzelania;nauka;gry z dobrym sprzetem komputerowym
+Escape room;zamkniety swiat;brak jazdy pojazdami;bez strzelania;nauka; gry ze slabym sprzetem komputerowym
+PowerWash Simulator;zamkniety swiat;brak jazdy pojazdami;bez strzelania;bez nauki;gry z dobrym sprzetem komputerowym
+House Flipper;zamkniety swiat;brak jazdy pojazdami;bez strzelania;bez nauki; gry ze slabym sprzetem komputerowym

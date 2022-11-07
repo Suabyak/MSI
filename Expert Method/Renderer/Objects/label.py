@@ -8,3 +8,6 @@ class Label(Object):
                  active=True):
         super().__init__(id, position, active=active)
         self.addComponent(Text(text, size, color, origin))
+    
+    def setText(self, text):
+        self.getComponent("Text").setText(text)
