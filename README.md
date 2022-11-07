@@ -1,1 +1,1 @@
-Repository to store code fo Artificial Intelligence classes
+Repository to store code for Artificial Intelligence classes
