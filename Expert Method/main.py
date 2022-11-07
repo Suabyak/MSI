@@ -1,3 +1,5 @@
+from Renderer.Objects.Components.rect import Rect
+from Renderer.Objects.Components.image import Image
 import pygame
 from Utils.eventOperator import EventOperator
 from Renderer.renderer import Renderer
@@ -179,6 +181,8 @@ class Main:
         if len(self.__games) == 1:
             self.setActiveScene("Result")
             self.getActiveScene().getObject("Result Label").setText(self.__games[0][0])
+            self.getActiveScene().getObject("Background").addComponent(Image(self.__games[0][0], (0.5, 0.5)))
+            Image.setSize(self.__games[0][0], (1200, 675))
             return
         if len(self.__tags) == 0:
             print(self.__games)
@@ -202,9 +206,11 @@ class Main:
         for i in range(len(self.__games)):
             i = len(self.__games) + deleted - 1 - i
             game = self.__games[i]
+            print(tag, game)
             if tag in game:
                 self.__games.pop(i)
                 deleted += 1
+        print(deleted)
 
 if __name__ == "__main__":
     Main()

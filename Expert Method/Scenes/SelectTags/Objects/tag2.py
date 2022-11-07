@@ -4,10 +4,10 @@ from Renderer.Objects.Components.text import Text
 
 
 class Tag2(Button):
-    def __init__(self, action):
+    def __init__(self, action, x):
         self.tag = ""
-        super().__init__("Tag2", Text(self.tag, 14, origin=(
-            0.5, 0.5)), action, position=(600, 200))
+        super().__init__("Tag2", Text(self.tag, 30, origin=(
+            0.5, 0.5)), action, position=(x, 525))
 
     def setTag(self, tag):
         self.tag = tag

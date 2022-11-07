@@ -1,4 +1,4 @@
-from pygame import image
+from pygame import image, transform
 from Renderer.Objects.Components.component import Component
 from Utils import maths
 
@@ -6,6 +6,9 @@ from Utils import maths
 class Image(Component):
     """Służy do wczytywania obrazów."""
     __images = dict()
+
+    def setSize(path, size):
+        Image.__images[path] = transform.scale(Image.__images[path], size)
 
     def __init__(self, path, origin=(0, 0)):
         """Wczytanie zdjęcia w konstruktorze.
@@ -15,7 +18,7 @@ class Image(Component):
         self.__origin = maths.Vector2(origin)
         if self.__path not in Image.__images.keys():
             Image.__images[self.__path] = image.load(
-                f"Data\\{self.__path}.png")
+                f"Expert Method\\Data\\{self.__path}.png")
 
     def render(self):
         surf = Image.__images[self.__path]

@@ -3,9 +3,9 @@ from Renderer.Objects.button import Button
 from Renderer.Objects.Components.text import Text
 
 class Tag1(Button):
-    def __init__(self, action):
+    def __init__(self, action, x):
         self.tag = ""
-        super().__init__("Tag1", Text(self.tag, 14, origin=(0.5, 0.5)), action, position=(300, 200))
+        super().__init__("Tag1", Text(self.tag, 30, origin=(0.5, 0.5)), action, position=(x, 525))
 
     def setTag(self, tag):
         self.tag = tag
